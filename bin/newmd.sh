@@ -17,7 +17,7 @@ fi
 export CURRENTDIR=`pwd`
 
 cd $ORACLOUD_HOME/$BLOG_REPO_NAME
-hugo new post/$1
+$ORACLOUD_HOME/bin/mac/hugo new post/$1
 
 cd $CURRENTDIR
 

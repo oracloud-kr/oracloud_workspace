@@ -4,7 +4,7 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-. $ORACLOUD_HOME//bin/env.sh
+. $ORACLOUD_HOME/bin/env.sh
 
 if [ ! -d "$ORACLOUD_HOME/$IMG_REPO_NAME" ]; then
   echo "<<Error>>"

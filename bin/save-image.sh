@@ -17,9 +17,13 @@ export CURRENTDIR=`pwd`
 
 cd $ORACLOUD_HOME/$IMG_REPO_NAME
 git add *
+echo "1"
 git commit -m "$1"
+echo "2"
 git pull origin master --no-edit
+echo "3"
 git push origin master
+echo "4"
 
 cd $CURRENTDIR
 
